@@ -1,0 +1,53 @@
+body {
+    min-width: 290px;
+    color: black;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif ;
+    line-height: 1.5;
+    display: block;
+    margin: 8px;
+}
+
+#navbar {
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    border-right: solid;
+    border-color: darkslategray;
+
+
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 250px;
+    margin-bottom: 100px;
+    padding: 10px;
+
+}
+
+header {
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+}
+
+#navbar header {
+    text-align: center;
+}
+
+ #navbar li {
+    color: darkslategrey;
+    border-top: solid;
+    border-left: 1px solid;
+}
+
+.list {
+    list-style: none;
+    padding-left: 0;
+    
+}
+
+.list li {
+    padding: 20px;
+}
